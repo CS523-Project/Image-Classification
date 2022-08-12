@@ -44,6 +44,20 @@ First store the residual function from the previous loop to a temp value, then f
 After x loop, the residual function is feed into a global average pooling to flatten the value, then a dropout is applied followed by a softmax classifier to produce the inference.
 
 
+##Experiment Setup
+Use the CIFAR10 and CIFAR100 datasets and augment the data by keras layers
+learning rate = 0.001
+weight decay = 0.0001
+Then split the dataset into train, validation and test data.
+
+##Training Details
+Dropout rate = 0.3
+Use AdamW Optimizer
+
+##Results
+![overview](/examples/10181660272552_.pic.jpg)
+
+
 ## Reference
 ### Paper Reference
 Paper 1: Transformer for Image Recognition at Scale <br>
