@@ -57,6 +57,13 @@ Use AdamW Optimizer
 ## Results
 ![overview](/examples/10181660272552_.pic.jpg)
 
+![overview](/examples/ViT_10_Acc.png)
+
+The accuracy of the Vision Transformer with dataset cifar10
+
+![overview](/examples/ConvMixer_10_acc.jpeg)
+
+The accuracy of the Convolution Mixer with dataset cifar10
 
 ## Reference
 ### Paper Reference
