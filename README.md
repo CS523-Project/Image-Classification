@@ -4,6 +4,14 @@ Zhaoyu Yin    zyyin@bu.edu <br>
 Jiaye Liu     jiayel@bu.edu <br>
 Junyang Li    jl981215@bu.edu
 
+## Running the Script
+All datasets can be imported from keras. <br>
+TensorFlow >= 2.4.0 <br>
+Require TensorFlow Addons <br>
+pip install -U tensorflow-addons <br>
+
+Recommend using SCC (2 cores 1 gpu) Then upload ipynb file.
+
 ## Architecture
 ![overview](/examples/ConvMixer%20structure.png)
 The architecture consist of three components
