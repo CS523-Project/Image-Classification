@@ -17,6 +17,7 @@ After x loop, the residual function is feed into a global average pooling to fla
 
 
 ## Reference
+### Paper Reference
 Paper 1: Transformer for Image Recognition at Scale <br>
 https://arxiv.org/pdf/2010.11929.pdf <br>
 Alexey Dosovitskiy,Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer,
@@ -26,3 +27,14 @@ Paper 2: Patches are all you need? <br>
 https://openreview.net/pdf?id=TVHS5Y4dNvM <br>
 Anonymous authors
 
+### Dataset Reference
+Cifar10 with 10 classes, 60000 images, 32 x 32 pixels <br>
+https://www.cs.toronto.edu/~kriz/cifar.html 
+
+Cifar10 with 100 classes, 60000 images, 32 x 32 pixels <br>
+https://www.cs.toronto.edu/~kriz/cifar.html
+
+### Prototype Vision Transformer
+Author: [Khalid Salama] <br>
+Description: Implementing the Vision Transformer (ViT) model for image classification. <br>
+https://github.com/keras-team/keras-io/blob/master/examples/vision/image_classification_with_vision_transformer.py
