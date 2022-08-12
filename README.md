@@ -34,7 +34,7 @@ https://www.cs.toronto.edu/~kriz/cifar.html
 Cifar10 with 100 classes, 60000 images, 32 x 32 pixels <br>
 https://www.cs.toronto.edu/~kriz/cifar.html
 
-### Prototype Vision Transformer
+### Prototype Vision Transformer Code
 Author: [Khalid Salama] <br>
 Description: Implementing the Vision Transformer (ViT) model for image classification. <br>
 https://github.com/keras-team/keras-io/blob/master/examples/vision/image_classification_with_vision_transformer.py
