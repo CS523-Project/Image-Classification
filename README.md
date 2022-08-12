@@ -31,7 +31,7 @@ Anonymous authors
 Cifar10 with 10 classes, 60000 images, 32 x 32 pixels <br>
 https://www.cs.toronto.edu/~kriz/cifar.html 
 
-Cifar10 with 100 classes, 60000 images, 32 x 32 pixels <br>
+Cifar100 with 100 classes, 60000 images, 32 x 32 pixels <br>
 https://www.cs.toronto.edu/~kriz/cifar.html
 
 ### Prototype Vision Transformer Code
