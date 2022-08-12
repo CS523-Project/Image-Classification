@@ -12,7 +12,27 @@ pip install -U tensorflow-addons <br>
 
 Recommend using SCC (2 cores 1 gpu) Then upload ipynb file.
 
-## Architecture
+## Goal
+1. Understand the components and features of Vision Transformer
+2. The implementation of the ConvMixer
+
+## ViT Architecture
+![overview](/examples/ViT_process.gif)
+Linear projection of Flatten Patches <br>
+Transformer Encoder <br>
+MLP Head <br>
+
+### Linear projection of Flatten Patches
+![overview](/examples/ViT%20patch%20image.png)
+
+As can be seen here, by using a convolutional layer, the initial image has been divided into several patches. The kernel size and the stride are the same as the patch size. Then, we can map each patch to one-dimensional vector, which is named as token. Also, it is concatenated with another class token for classification. The position embedding is the same as position encoding in the natural language processing. It can mark the position of a token in the sequence.
+
+### Detailed flow chart of ViT
+![overview](/examples/ViT_16.png)
+
+This is the detailed flow chart of the vision transformer. We just showed the patch embedding. The encoder block iterates for a few times. Here is the detailed structure of the encoder block. Multi-head attention is an important mechanism. It can divide the model into multiple heads to create multiple subspaces so that the model can focus on different aspects of the information. It is great, but the computing cost is expensive. Then, it goes to the MLP block, which consists of multiple layers with dropout and gelu function. We only want to keep the patch embedding and replace other parts with the convolution Mixer network.
+
+## ConvMixer Architecture
 ![overview](/examples/ConvMixer%20structure.png)
 The architecture consist of three components
 ### Patch embedding layer
